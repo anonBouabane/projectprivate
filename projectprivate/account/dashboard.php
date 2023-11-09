@@ -190,7 +190,7 @@ $countLowStock2 = $lowStockQuery2->num_rows;
                     if ($qt_id == 11) {
                         if ($percent_quota > 75) {
                             $color_mark = "#FE4C76";
-                        }  else if ((($percent_quota <= 74))) {
+                        } else if ((($percent_quota <= 74))) {
                             $color_mark = "#2BC155";
                         }
                     } else {
@@ -216,9 +216,9 @@ $countLowStock2 = $lowStockQuery2->num_rows;
                                     <span><i class="ti-sharethis"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
-                                    <h2 class="color-white"><?php echo  number_format($price_quota) . " / " . number_format($row5['iol_quota']); ?></h2>
+                                    <h2 class="color-white"><?php echo  number_format($row5['iol_quota']); ?></h2>
                                     <a href="view_detail_quota.php?qt_id=<?php echo "$qt_id"; ?>"">
-                                        <p class="m-b-0"><?php echo $rowqt['qt_name']; ?></p>
+                                        <p class=" m-b-0"><?php echo $rowqt['qt_name']; ?></p>
                                     </a>
                                 </div>
                             </div>

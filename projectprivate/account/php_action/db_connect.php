@@ -3,7 +3,7 @@
 $localhost = "localhost";
 $username = "root";
 $password = "";
-$dbname = "account";
+$dbname = "private";
 
 // db connection
 $connect = new mysqli($localhost, $username, $password, $dbname);
@@ -13,5 +13,3 @@ if($connect->connect_error) {
 } else {
   // echo "Successfully connected";
 }
-
-?>
